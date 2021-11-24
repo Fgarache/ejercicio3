@@ -4,7 +4,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
        float num1;
         float num2;
-        int obcion,respuesta,salir;
+        int obcion,respuesta;
 
         //suma=1, resta=2, multiplicacion=3 y divicion=4
 
@@ -15,9 +15,9 @@ public class Ejercicio1 {
         if (obcion==5){
             System.out.println("fin");}
 
-                      while (obcion<=4){
+            while (obcion<=4){
 
-                          if (obcion==1){
+                if (obcion==1){
                           System.out.println("Ingrese el numero 1: ");
                           num1= datos.nextFloat();
                           System.out.println("Ingrese el numero 2: ");
@@ -27,7 +27,7 @@ public class Ejercicio1 {
 
 
 
-                          if (obcion==2){
+                if (obcion==2){
                               System.out.println("Ingrese el numero 1: ");
                               num1= datos.nextFloat();
                               System.out.println("Ingrese el numero 2: ");
@@ -36,7 +36,7 @@ public class Ejercicio1 {
                               System.out.println("La resta es "+respuesta+"");}
 
 
-                          if (obcion==3){
+                if (obcion==3){
                               System.out.println("Ingrese el numero 1: ");
                               num1= datos.nextFloat();
                               System.out.println("Ingrese el numero 2: ");
@@ -44,7 +44,7 @@ public class Ejercicio1 {
                               respuesta= (int) (num1*num2);
                               System.out.println("La Multiplicacion es "+respuesta+"");}
 
-                          if (obcion==4){
+                if (obcion==4){
                               System.out.println("Ingrese el numero 1: ");
                               num1= datos.nextFloat();
                               System.out.println("Ingrese el numero 2: ");
@@ -52,14 +52,8 @@ public class Ejercicio1 {
                               respuesta= (int) (num1/num2);
                               System.out.println("La Divicion es "+respuesta+"");}
 
-                          else {System.out.println("\nSELECCIONE: \n1: SUMA, 2: RESTA, 3: MULTIPLICACION, 4 PARA DIVICION, 5:Salir. ");
+                else {System.out.println("\nSELECCIONE: \n1: SUMA, 2: RESTA, 3: MULTIPLICACION, 4 PARA DIVICION, 5:Salir. ");
                                 obcion = datos.nextInt();}
-
-
-
-                      }
-
-
-
-}
+            }
+    }
 }

@@ -51,6 +51,9 @@ public class Ejercicio1 {
                               num2= datos.nextFloat();
                               respuesta= (int) (num1/num2);
                               System.out.println("La Divicion es "+respuesta+"");}
+                if (obcion==5){
+                    System.out.println("salir");
+                }
 
                 else {System.out.println("\nSELECCIONE: \n1: SUMA, 2: RESTA, 3: MULTIPLICACION, 4 PARA DIVICION, 5:Salir. ");
                                 obcion = datos.nextInt();}

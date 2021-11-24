@@ -12,10 +12,10 @@ public class Ejercicio1 {
         System.out.println("SELECCIONE: \n1: SUMA, 2: RESTA, 3: MULTIPLICACION, 4 PARA DIVICION, 5: Salir. ");
         obcion = datos.nextInt();
 
-        if (obcion==5){
+        if (obcion==6){
             System.out.println("fin");}
 
-            while (obcion<=4){
+            while (obcion<=5){
 
                 if (obcion==1){
                           System.out.println("Ingrese el numero 1: ");
@@ -51,6 +51,9 @@ public class Ejercicio1 {
                               num2= datos.nextFloat();
                               respuesta= (int) (num1/num2);
                               System.out.println("La Divicion es "+respuesta+"");}
+                if (obcion==5){
+                    System.out.println("salir");
+                }
 
                 else {System.out.println("\nSELECCIONE: \n1: SUMA, 2: RESTA, 3: MULTIPLICACION, 4 PARA DIVICION, 5:Salir. ");
                                 obcion = datos.nextInt();}
